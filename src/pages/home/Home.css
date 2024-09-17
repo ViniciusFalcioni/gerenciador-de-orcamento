@@ -1,0 +1,46 @@
+/* Estilo geral da página Home */
+.home-container {
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.home-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.home-subtitle {
+    font-size: 1.8rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.home-text {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.home-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.home-features li {
+    font-size: 1.2rem;
+    color: #007bff;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.home-message {
+    font-size: 1.3rem;
+    color: #28a745;
+    font-weight: bold;
+}

@@ -1,0 +1,41 @@
+/* Estilo geral para o formulário de criar despesas */
+.criar-despesa-container {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.criar-despesa-container h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.criar-despesa-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Estilo do botão com cores vermelhas */
+.criar-despesa-container button {
+    background-color: #dc3545; /* Cor vermelha para o botão */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.criar-despesa-container button:hover {
+    background-color: #c82333; /* Tom mais escuro no hover */
+}

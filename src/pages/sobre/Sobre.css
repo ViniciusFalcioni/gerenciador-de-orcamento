@@ -1,0 +1,45 @@
+/* Estilo geral da página Sobre */
+.sobre-container {
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.sobre-title {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sobre-text {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.sobre-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sobre-list li {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+    color: #007bff;
+}
+
+.sobre-list li::before {
+    content: "•";
+    color: #28a745;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.5rem;
+}
